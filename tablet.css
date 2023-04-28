@@ -1,0 +1,261 @@
+@media  (max-width:768px) {
+    
+
+body{
+    width: 768px;
+    height: 300vh;
+}
+header{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.divH{
+    height: 100%;
+    width: 50%;
+}
+#divH1{
+    display: none;
+}
+#divH2{
+    background-image: url(./pic/h.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 60%;
+}
+#hH1{
+    position: absolute;
+    color: black;
+    top: 10%;
+    right: 2%;
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+width: 339px;
+}
+span{
+    color: black;
+}
+#hP{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+}
+#hbtn{
+    background-color: black;
+    color: white;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23.94px;
+border: none;
+width: 204px;
+height: 72px;
+}
+#hbtn:hover{
+    cursor: pointer;
+    background-color: #D5966C;
+}
+#hbtn:hover ~ #hbtn2{
+    background-color: black; 
+    cursor: pointer;
+}
+ #hbtn2:hover{ 
+    cursor: pointer;
+}
+/*
+#hbtn2:hover ~ #hbtn{
+    background-color: #D5966C; 
+    cursor: pointer;
+} */
+
+#hbtn2{
+    height: 72px;
+width: 56px;
+background-color: #D5966C;
+border: none;
+}
+a{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 50px;
+}
+#divHR{
+    width: 339px;
+    position: absolute;
+    top: 40%;
+    right: 2%;
+}
+
+section{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-block: 10%;
+    padding-inline: 5%;
+    justify-content: space-between;
+}
+#s1divTop{
+    width: 100%;
+    height: 35%;
+    display: flex;
+
+}
+#s1dtL{
+    height: 100%;
+    width: 40%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+#s1dtL__h1{
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 45px;
+color: #151515;
+text-transform: uppercase;
+}
+#s1dtL__p{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: #444444;
+}
+#s1dtR{
+    height: 100%;
+    width: 60%;
+    background-image: url(./pic/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s1divBottom{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#s1dbL{
+    width: 55%;
+    height: 100%;
+    background-image: url(./pic/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+#s1dbR{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#s1dbRT{
+    width: 100%;
+    height: 40%;
+    background-image: url(./pic/pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#s1dbRB{
+    width: 100%;
+    height: 55%;
+    background-color: #151515;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#s1dbRB__h1{
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 45px;
+color: white;
+text-transform: uppercase;
+}
+#s1dbRB__p{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: white;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #151515;
+    display: flex;
+    padding-inline: 5%;
+    justify-content: space-between;
+}
+#fdiv1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fdiv1h1{
+    color: white;
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+}
+#fdiv2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#fdiv3{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#fdiv1p{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+color: white;
+}
+.fa:hover{
+   
+    cursor: pointer;
+    
+}
+}
